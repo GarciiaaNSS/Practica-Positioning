@@ -1,0 +1,121 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    font-size: 10px;
+    font-family: sans-serif;
+    color: dimgray;
+}
+
+.box1 {
+    width: 100%;
+    height: 75px;
+    background-color: lightgoldenrodyellow;
+    display: flex;
+    border-radius: 5px;
+}
+
+.box2 {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.division {
+    height: 100%;
+    border-right: 2px solid grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.division1 {
+    height: 100%;
+    border-right: 2px solid grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.division2 {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.division:last-child {
+    border-right: none;
+}
+
+.division1:last-child {
+    border-right: none;
+}
+
+.division2:last-child {
+    border-right: none;
+}
+
+.sidebar-1 {
+    width: 30%;
+    height: 500px;
+    background-color: lightcoral;
+    margin: 30px 0;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+}
+
+.sidebar-2 {
+    width: 68%;
+    height: 500px;
+    margin: 30px 0;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+}
+
+.caja-sidebar {
+    height: 50%;
+    border-bottom: 2px solid grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.caja-sidebar:last-child {
+    border-bottom: none;
+}
+
+/* para quitar la barra inferior del sidebar2*/
+
+.caja-main {
+    height: 80%;
+    background-color: lightgreen;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.caja-footer {
+    height: 20%;
+    background-color: lightblue;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.caja-hueco {
+    height: 5%;
+    background-color: #ffffff;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
